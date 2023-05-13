@@ -11,7 +11,7 @@ type BranchNode struct {
 
 func NewBranchNode() *BranchNode {
 	return &BranchNode{
-		Branches: [16]Node{},
+		Branches: [16]Node{}
 	}
 }
 
